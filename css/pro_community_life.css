@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+.community_life{
+	background: #fff;
+	overflow: hidden;
+}
+.community_life_box {
+	width: 1200px;
+	padding: 70px 0;
+	height: auto;
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.community_life_box .profile_title {
+	visibility: visible;
+	-webkit-animation: title_up 2s both;
+	-moz-animation: title_up 2s;
+	-ms-animation: title_up 2s both;
+	animation: title_up 2s both;
+}
+
+.community_life_box .profile_title h3 {
+	font-size: 36px;
+	margin: 0;
+}
+
+.community_life_box .profile_text p {
+	margin: 0;
+	color: #929292;
+	line-height: 24px;
+}
+
+.community_life_box .profile_title span {
+	display: inline-block;
+	background: #1CA889;
+	width: 17px;
+	height: 5px;
+	margin-bottom: 20px;
+	margin: 40px 0 20px 0;
+}
+.community_life_box .swiper_wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: -webkit-box;
+	/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box;
+	/* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox;
+	/* 混合版本语法: IE 10 */
+	display: -webkit-flex;
+	/* 新版本语法: Chrome 21+ */
+	display: flex;
+	/* 新版本语法: Opera 12.1, Firefox 22+ */
+	transform: translate3d(0px, 0px, 0px);
+	transition-duration: 0ms;
+	padding: 80px 0 0 0;
+
+	
+}
+
+
+
+.community_life_box .swiper_wrapper .swiper_slide {
+	-webkit-flex-shrink: 0;
+	-ms-flex: 0 0 auto;
+	-moz-box-flex: 0;
+	flex-shrink: 0;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	width: 32%;
+	margin-right: 2%;
+
+}
+
+.community_life_box .btn_box .btn_group button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: transparent;
+	border: 1px solid #7d7d7d;
+	color: #7d7d7d;
+	outline: none;
+}
+
+.community_life_box .btn_box {
+	clear: both;
+	padding: 60px 0 80px 0;
+}
+
+.community_life_box .btn_box .btn_group .switch_point {
+	display: inline-block;
+	margin: 0 30px;
+}
+
+.community_life_box .btn_box .btn_group .switch_point span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #7d7d7d;
+	transition: all .5s;
+}
+
+.community_life_box .btn_box .btn_group .switch_point .active {
+	background: #0088CC;
+}
+
+@media (max-width: 1200px) {
+	.community_life_box {
+		width: 84%;
+	}
+}
+
+@media (max-width: 767px) {
+	.community_life_box .profile_title h3 {
+		font-size: 18px;
+		margin: 0;
+	}
+	.community_life_box .profile_title span{
+		margin: 20px 0 20px 0;
+	}
+	.community_life_box {
+		width: 94%;
+		padding: 30px 0;
+	}
+	.community_life_box .swiper_wrapper {
+		padding: 30px 0 0 0;
+	}
+	.community_life_box .btn_box {
+		clear: both;
+		padding: 60px 0 30px 0;
+	}
+}

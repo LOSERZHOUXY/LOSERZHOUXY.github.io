@@ -1,0 +1,371 @@
+@charset "utf-8";
+
+.talent_recruitment .join {
+	width: 1200px;
+	height: auto;
+	clear: both;
+	margin: 0 auto;
+	padding: 70px 0;
+}
+.talent_recruitment .join .profile_title {
+	visibility: visible;
+	-webkit-animation: title_up 2s both;
+	-moz-animation: title_up 2s;
+	-ms-animation: title_up 2s both;
+	animation: title_up 2s both;
+}
+.talent_recruitment .join .profile_title h3 {
+	font-size: 36px;
+	margin: 0;
+}
+
+.talent_recruitment .join .profile_title span {
+	display: inline-block;
+	background: #1CA889;
+	width: 17px;
+	height: 5px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.talent_recruitment .join .profile_text p {
+	margin: 0;
+	color: #929292;
+	line-height: 24px;
+}
+
+.talent_recruitment .list_title {
+	height: 66px;
+	line-height: 66px;
+	background: #f9fbfc;
+}
+
+.talent_recruitment .list_title .profile_list {
+	width: 1200px;
+	height: auto;
+	clear: both;
+	margin: 0 auto;
+}
+
+.talent_recruitment .list_title .profile_list li {
+	width: 33.3%;
+	float: left;
+	font-size: 16px;
+	position: relative;
+	cursor: pointer;
+}
+
+.talent_recruitment .list_title .profile_list a {
+	color: #000;
+	text-decoration: none;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.talent_recruitment .list_title .profile_list .active {
+	background: #0f86c6;
+}
+
+.talent_recruitment .list_title .profile_list .active a {
+	color: #fff;
+}
+
+.talent_recruitment .list_title .profile_list .active:before {
+	content: "";
+	display: block;
+	width: 13px;
+	height: 9px;
+	z-index: 2;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 66px;
+	background: url(../img/content/arrs.png) no-repeat center;
+}
+
+.talent_recruitment .list_content {
+	background: url(../img/content/talent_recruitment_bg.jpg) no-repeat center;
+}
+
+.talent_recruitment .list_content .tab-pane .society_box,
+.talent_recruitment .list_content .tab-pane .school_box,
+.talent_recruitment .list_content .tab-pane .summer_vacation_box {
+	width: 1200px;
+	height: auto;
+	clear: both;
+	margin: 0 auto;
+	padding: 88px 0;
+
+}
+
+.talent_recruitment .list_content .tab-pane .society_box .rc_box .title {
+	height: 56px;
+	line-height: 56px;
+	padding: 0 20px;
+	background: #f8f8f8;
+	cursor: pointer;
+	color: #2e2e2e;
+	border-bottom: 2px solid #19a19f;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.talent_recruitment .list_content .tab-pane .society_box .rc_box .title span {
+	display: inline-block;
+	overflow: hidden;
+	line-height: 56px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 30%;
+	height: 56px;
+	font-size: 14px;
+}
+
+.talent_recruitment .list_content .tab-pane .society_box .rc_box .title i {
+	float: right;
+	background: url(../img/content/add.png) no-repeat left center;
+	display: inline-block;
+	background-size: 100% 100%;
+	margin-top: 22px;
+	width: 12px;
+	height: 12px;
+
+}
+
+.talent_recruitment .list_content .tab-pane .society_box .rc_box>div {
+	padding: 40px 50px;
+	color: #515151;
+	background: #f4f4f4;
+	border-bottom: 2px solid #19a19f;
+	display: none;
+}
+
+.talent_recruitment .list_content .tab-pane .society_box .rc_box>div .apply_btn {
+	border-radius: 25px;
+	background: #1ca889;
+	width: 120px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	color: #fff;
+	outline: none;
+}
+
+.talent_recruitment .list_content .tab-pane .school_box p,
+.talent_recruitment .list_content .tab-pane .summer_vacation_box p {
+	margin: 0;
+	color: #fff;
+}
+
+.contact_us {
+	background: #f9fbfc;
+}
+
+.contact_us .m_banner {
+	position: relative;
+}
+
+.contact_us .m_banner h3 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	font-size: 36px;
+	color: #fff;
+	transform: translate(-50%, -50%);
+	margin: 0;
+}
+
+.contact_us .contact_us_content {
+	background: #fff;
+	color: #929292;
+	position: relative;
+	top: -80px;
+	padding: 60px;
+	box-sizing: border-box;
+	width: 1200px;
+	height: auto;
+	clear: both;
+	margin: 0 auto;
+	visibility: visible;
+	-webkit-animation: title_up 2s both;
+	-moz-animation: title_up 2s;
+	-ms-animation: title_up 2s both;
+	animation: title_up 2s both;
+}
+
+.contact_us .contact_us_content .contact_head {
+	padding-bottom: 50px;
+	border-bottom: 1px solid #dedede;
+	line-height: 24px;
+	margin-bottom: 60px;
+	overflow: hidden;
+}
+
+.contact_us .contact_us_content .contact_head .info {
+	width: 50%;
+	float: left;
+}
+
+.contact_us .contact_us_content .contact_head .info p {
+	margin: 0;
+	line-height: 24px;
+}
+
+.contact_us .contact_us_content .contact_head .code {
+	width: 50%;
+	float: right;
+}
+
+.contact_us .contact_us_content .contact_head .code .box {
+	float: right;
+	margin-left: 35px;
+	color: #a3a3a3;
+}
+
+.contact_us .contact_us_content .contact_head .code img {
+	width: 66px;
+	height: 66px;
+	border: 0;
+}
+
+.contact_us .contact_us_content .contact_head .code h3 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.contact_us .contact_us_content .contact_addre {
+	overflow: hidden;
+}
+
+.contact_us .contact_us_content .contact_addre .box:nth-child(2n+1) {
+	width: 42%;
+	float: left;
+	margin-bottom: 60px;
+	min-height: 110px;
+}
+.contact_us .contact_us_content .contact_addre .box:nth-child(2n) {
+	width: 42%;
+	float: right;
+	margin-bottom: 60px;
+	min-height: 110px;
+}
+.contact_us .contact_us_content .contact_addre .box h3 {
+	font-size: 16px;
+	margin: 0;
+	margin-bottom: 10px;
+	color: #333;
+}
+.contact_us .contact_us_content .contact_addre .box .text {
+	    line-height: 24px;
+}
+.contact_us .contact_us_content .contact_addre .box .text p{
+	   margin: 0;
+}
+@media (max-width:1200px) {
+	.talent_recruitment .join {
+		width: 94%;
+	}
+
+	.talent_recruitment .list_title .profile_list,
+	.talent_recruitment .list_content .tab-pane .society_box,
+	.talent_recruitment .list_content .tab-pane .school_box,
+	.talent_recruitment .list_content .tab-pane .summer_vacation_box,
+	.contact_us .contact_us_content {
+		width: 84%;
+	}
+
+	.contact_us .contact_us_content {
+
+		top: -50px;
+
+	}
+}
+
+@media (max-width:767px) {
+	.talent_recruitment .join {
+		width: 94%;
+		padding: 30px 0;
+	}
+
+
+
+	.talent_recruitment .join .profile_title h3 {
+		font-size: 18px;
+	}
+
+	.talent_recruitment .join .profile_title span {
+		margin-top: 10px;
+	}
+
+	.talent_recruitment .list_title .profile_list,
+	.talent_recruitment .list_content .tab-pane .society_box,
+	.talent_recruitment .list_content .tab-pane .school_box,
+	.talent_recruitment .list_content .tab-pane .summer_vacation_box,
+	.contact_us .contact_us_content {
+		width: 94%;
+	}
+
+	.talent_recruitment .list_content .tab-pane .society_box,
+	.talent_recruitment .list_content .tab-pane .school_box,
+	.talent_recruitment .list_content .tab-pane .summer_vacation_box {
+		padding: 30px 0;
+
+	}
+
+	.talent_recruitment .list_title {
+		height: 40px;
+		line-height: 40px;
+	}
+
+	.talent_recruitment .list_content .tab-pane .society_box .rc_box .title {
+		padding: 0 10px;
+	}
+
+	.talent_recruitment .list_title .profile_list .active:before {
+		top: 40px;
+	}
+
+	.contact_us .m_banner h3 {
+		font-size: 18px;
+	}
+
+	.contact_us .contact_us_content {
+		padding: 20px;
+		top: 0;
+
+	}
+
+	.contact_us .contact_us_content .contact_head {
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+	}
+
+	.contact_us .contact_us_content .contact_head .info {
+		width: 100%;
+		float: left;
+	}
+
+
+
+	.contact_us .contact_us_content .contact_head .code {
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.contact_us .contact_us_content .contact_head .code .box {
+		float: none;
+		display: inline-block;
+		margin-left: 0;
+		margin-right: 30px;
+	}
+	.contact_us .contact_us_content .contact_addre .box:nth-child(2n+1) {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.contact_us .contact_us_content .contact_addre .box:nth-child(2n) {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}

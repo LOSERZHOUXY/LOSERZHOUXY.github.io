@@ -1,0 +1,370 @@
+@charset "utf-8";
+
+.Residential_services {
+	width: 1200px;
+	padding: 70px 0;
+	height: auto;
+	clear: both;
+	margin: 0 auto;
+	
+}
+.Residential_services .profile_title{
+	visibility: visible;
+	-webkit-animation: title_up 2s both;
+	-moz-animation: title_up 2s;
+	-ms-animation: title_up 2s both;
+	animation: title_up 2s both;
+}
+.Residential_services .profile_title h3 {
+	font-size: 36px;
+	margin: 0;
+}
+
+.Residential_services .profile_text p {
+	margin: 0;
+	color: #929292;
+	line-height: 24px;
+}
+
+.Residential_services .profile_title span {
+	display: inline-block;
+	background: #1CA889;
+	width: 17px;
+	height: 5px;
+	margin-bottom: 20px;
+	margin: 40px 0 20px 0;
+}
+.mien{
+	background: #e3f3fb;
+}
+.mien_box {
+	padding: 80px 0;
+	width: 63.059%;
+	height: auto;
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+.mien_box .profile_title {
+	visibility: visible;
+	-webkit-animation: title_up 2s both;
+	-moz-animation: title_up 2s;
+	-ms-animation: title_up 2s both;
+	animation: title_up 2s both;
+}
+
+.mien_box .profile_title h3 {
+	font-size: 36px;
+	margin: 0;
+}
+
+.mien_box .profile_title span {
+	display: inline-block;
+	background: #1CA889;
+	width: 17px;
+	height: 5px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.mien_box .swiper_wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: -webkit-box;
+	/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box;
+	/* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox;
+	/* 混合版本语法: IE 10 */
+	display: -webkit-flex;
+	/* 新版本语法: Chrome 21+ */
+	display: flex;
+	/* 新版本语法: Opera 12.1, Firefox 22+ */
+	transform: translate3d(0px, 0px, 0px);
+	transition-duration: 0ms;
+
+}
+
+.mien_box .swiper_wrapper .swiper_slide {
+	-webkit-flex-shrink: 0;
+	-ms-flex: 0 0 auto;
+	-moz-box-flex: 0;
+	flex-shrink: 0;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	width: 32%;
+	margin-right: 2%;
+}
+
+.mien_box .btn_box .btn_group button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: transparent;
+	border: 1px solid #7d7d7d;
+	color: #7d7d7d;
+	outline: none;
+}
+
+.mien_box .btn_box {
+	clear: both;
+	padding-top: 60px;
+}
+
+.mien_box .btn_box .btn_group .switch_point {
+	display: inline-block;
+	margin: 0 30px;
+}
+
+.mien_box .btn_box .btn_group .switch_point span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #7d7d7d;
+	transition: all .5s;
+}
+.mien_box .btn_box .btn_group .switch_point .active {
+	background: #0088CC;
+}
+.project{
+	padding: 70px 0;
+}
+.project .profile_title {
+	visibility: visible;
+	-webkit-animation: title_up 2s both;
+	-moz-animation: title_up 2s;
+	-ms-animation: title_up 2s both;
+	animation: title_up 2s both;
+}
+
+.project .profile_title h3 {
+	font-size: 36px;
+	margin: 0;
+}
+
+.project .profile_title span {
+	display: inline-block;
+	background: #1CA889;
+	width: 17px;
+	height: 5px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.case_box {
+	position: relative;
+	overflow: hidden;
+}
+
+.wrapper {
+	position: relative;
+	top: 0;
+	z-index: 1;
+	display: -webkit-box;
+	/* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box;
+	/* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox;
+	/* 混合版本语法: IE 10 */
+	display: -webkit-flex;
+	/* 新版本语法: Chrome 21+ */
+	display: flex;
+	/* 新版本语法: Opera 12.1, Firefox 22+ */
+	transform: translate3d(0px, 0px, 0px);
+	transition-duration: 0ms;
+}
+
+.wrapper ul {
+
+	-webkit-flex-shrink: 0;
+	-ms-flex: 0 0 auto;
+	-moz-box-flex: 0;
+	flex-shrink: 0;
+	width: 100%;
+	
+}
+
+
+.project_one ul>.on {
+	width: 40%;
+}
+
+.project_one ul>li {
+	position: relative;
+	width: 20%;
+	float: left;
+	margin-bottom: 40px;
+	height: 358px;
+	transition: all .4s;
+}
+
+.project_one ul>li a .img {
+	width: 100%;
+	height: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+
+}
+
+.project_one ul>.on .img {
+	border: 2px solid #0F86C6;
+}
+
+.project_one .list_one>li:nth-of-type(1) a .img {
+	background: url(../img/content/project.jpg) no-repeat center;
+}
+
+.project_one .list_one>li:nth-of-type(2) a .img {
+	background: url(../img/content/project_01.jpg) no-repeat center;
+}
+
+.project_one .list_one>li:nth-of-type(3) a .img {
+	background: url(../img/content/project_02.jpg) no-repeat center;
+}
+
+.project_one .list_one>li:nth-of-type(4) a .img {
+	background: url(../img/content/project_03.jpg) no-repeat center;
+}
+
+.project_one .list_two>li:nth-of-type(1) a .img {
+	background: url(../img/content/project_000.jpg) no-repeat center;
+}
+
+.project_one .list_two>li:nth-of-type(2) a .img {
+	background: url(../img/content/project_001.jpg) no-repeat center;
+}
+
+.project_one .list_two>li:nth-of-type(3) a .img {
+	background: url(../img/content/project_002.jpg) no-repeat center;
+}
+
+.project_one .list_two>li:nth-of-type(4) a .img {
+	background: url(../img/content/project_003.jpg) no-repeat center;
+}
+
+.project_one ul>li a .case_info {
+	position: absolute;
+	width: 88%;
+	left: 6%;
+	bottom: 0;
+	background: #0f86c6;
+	box-sizing: border-box;
+	color: #fff;
+	padding: 50px;
+	transition: all .8s;
+	opacity: 0;
+}
+
+.project_one ul>.on a .case_info {
+	opacity: 1;
+	transform: translateY(40px);
+}
+
+
+.project .btn_box .btn_group button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: transparent;
+	border: 1px solid #7d7d7d;
+	color: #7d7d7d;
+	outline: none;
+}
+
+.project .btn_box {
+	clear: both;
+	padding-top: 60px;
+}
+
+.project .btn_box .btn_group .switch_point {
+	display: inline-block;
+	margin: 0 30px;
+}
+
+.project .btn_box .btn_group .switch_point span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #7d7d7d;
+	transition: all .5s;
+}
+
+.project .btn_box .btn_group .switch_point .active {
+	background: #0f86c1;
+}
+
+@media (max-width:1200px) {
+	.Residential_services {
+		width: 84%;
+	}
+
+
+	.mien_box {
+		width: 84%;
+	}
+
+
+
+
+
+}
+@media (max-width: 414px) {
+	.project .container{
+		margin: 0;
+		width: 100%;
+	}
+
+
+}
+@media (max-width:767px) {
+	.Residential_services {
+		width: 94%;
+		padding: 30px 0;
+	}
+
+	.Residential_services .profile_title h3,.project .profile_title h3 {
+		font-size: 18px;
+		margin: 0;
+	}
+
+	.Residential_services .profile_title span,.project .profile_title span{
+		margin: 20px 0 20px 0;
+	}
+	
+	.mien_box {
+		width: 94%;
+		padding: 30px 0;
+	}
+	
+	.mien_box .profile_title h3 {
+		font-size: 18px;
+		margin: 0;
+	}
+	
+	.mien_box .profile_title span {
+		margin: 20px 0 20px 0;
+	}
+	.project {
+		padding: 30px 0px;
+	}
+	
+	.project .title h3 {
+		font-size: 18px;
+	}
+	
+	.project_one ul>.on {
+		width: 100%;
+		display: block;
+	}
+	
+	.project_two ul>.on {
+		width: 100%;
+	}
+	
+}

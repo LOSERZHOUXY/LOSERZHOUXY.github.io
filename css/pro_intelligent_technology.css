@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+.intelligent_technology {
+	background: #fff;
+	overflow: hidden;
+}
+
+.intelligent_technology_box {
+	width: 1200px;
+	padding: 70px 0;
+	height: auto;
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.intelligent_technology_box .profile_title {
+	visibility: visible;
+	-webkit-animation: title_up 2s both;
+	-moz-animation: title_up 2s;
+	-ms-animation: title_up 2s both;
+	animation: title_up 2s both;
+}
+
+.intelligent_technology_box .profile_title h3 {
+	font-size: 36px;
+	margin: 0;
+}
+
+.intelligent_technology_box .profile_text p {
+	margin: 0;
+	color: #929292;
+	line-height: 24px;
+}
+
+.intelligent_technology_box .profile_title span {
+	display: inline-block;
+	background: #1CA889;
+	width: 17px;
+	height: 5px;
+	margin-bottom: 20px;
+	margin: 40px 0 20px 0;
+}
+
+.intelligent_technology_box .content {
+	margin-top: 60px;
+}
+
+.intelligent_technology_box .content .box {
+	width: 50%;
+	float: left;
+	height: 360px;
+	color: #fff;
+	padding: 60px;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+}
+
+.intelligent_technology_box .content .box h3 {
+	margin: 0;
+	font-size: 24px;
+}
+
+.intelligent_technology_box .content .box:nth-of-type(1) {
+	background: #1ca889;
+}
+.intelligent_technology_box .content .box:nth-of-type(2) {
+	background:#6678b6;
+}
+.intelligent_technology_box .content .box:nth-of-type(3) {
+	background: #4ba6b9;
+}
+.intelligent_technology_box .content .box:nth-of-type(4) {
+	background: #8fb242;
+}
+.intelligent_technology_box .content .box .text {
+	line-height: 24px;
+}
+
+.intelligent_technology_box .content .box span {
+	display: block;
+	background: #fff;
+	width: 18px;
+	height: 2px;
+	margin: 15px 0;
+}
+
+.intelligent_technology_box .content .box p {
+	margin: 0;
+}
+
+@media (max-width:1200px) {
+	.intelligent_technology_box {
+		width: 84%;
+	}
+}
+
+@media (max-width:767px) {
+	.intelligent_technology_box {
+		width: 96%;
+		padding: 30px 0;
+	}
+
+	.intelligent_technology_box .profile_title h3 {
+		font-size: 18px;
+		margin: 0;
+	}
+
+	.intelligent_technology_box .profile_title span {
+		margin: 20px 0 20px 0;
+	}
+	.intelligent_technology_box .content .box {
+		width: 100%;
+		height: auto;
+	}
+}
